@@ -1,0 +1,27 @@
+{
+  "name": "eslint-plugin-no-duplicate-else",
+  "version": "0.1.1",
+  "description": "this plugin provides a new rules which enforce no duplicate else",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "cao kang",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~3.9.1",
+    "mocha": "^6.2.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "url": "https://github.com/caokangx/eslint-plugin-no-duplicate-else",
+  "license": "ISC"
+}
